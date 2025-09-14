@@ -1,0 +1,12 @@
+.container {
+  width: 50%;
+  margin: auto;  /* centraliza o container */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+}
+
+.container img {
+  width: 40%;    /* controla o tamanho da imagem */
+  height: center;
+  margin: 20%;
+}
