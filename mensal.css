@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .container {
-  width: 50%;
+  width: 40%;
   margin: auto;  /* centraliza o container */
   display: flex;
   justify-content: center; /* centraliza horizontalmente */
@@ -9,4 +10,24 @@
   width: 40%;    /* controla o tamanho da imagem */
   height: center;
   margin: 20%;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  width: 200px;
+  padding: 0;
+  background-color: rgb(97, 97, 114);
+}
+
+li a{
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: aqua;
+  color:yellowgreen
 }
